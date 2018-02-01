@@ -10,7 +10,7 @@ import { ErrorHandler } from '@angular/core';
 })
 export class Component1Component implements OnInit {
 
-  constructor() { }
+  constructor(private errorHandler:ErrorHandler) { }
 
   ngOnInit() {
   }
